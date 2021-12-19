@@ -18,7 +18,7 @@ def read_file(filename: str):
 # PyFuck ファイルを書き込み
 def write_file(filename: str, fuck: str):
     with open(filename, "w") as f:
-        return f.write(fuck)
+        f.write(fuck)
 
 
 # 数値を PyFuck に変換
