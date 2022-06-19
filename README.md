@@ -1,16 +1,20 @@
 # 💘PyFuck `exchr(+1)`
+
 PyFuck is a strange playful code.  
 It uses only nine different characters to write Python3 code.  
-  
-  Inspired by [aemkei/jsfuck](https://github.com/aemkei/jsfuck)  
+
+Inspired by [aemkei/jsfuck](https://github.com/aemkei/jsfuck)  
 
 ## Example
+
 The following source will do an `__import__("os").system("ls")`:
+
 ```python
 exec(chr(11+11+11+11+11+11+11+11+1+1+1+1+1+1+1)+chr(11+11+11+11+11+11+11+11+1+1+1+1+1+1+1)+chr(11+11+11+11+11+11+11+11+11+1+1+1+1+1+1)+chr(11+11+11+11+11+11+11+11+11+1+1+1+1+1+1+1+1+1+1)+chr(111+1)+chr(111)+chr(111+1+1+1)+chr(111+1+1+1+1+1)+chr(11+11+11+11+11+11+11+11+1+1+1+1+1+1+1)+chr(11+11+11+11+11+11+11+11+1+1+1+1+1+1+1)+chr(11+11+11+1+1+1+1+1+1+1)+chr(11+11+11+1)+chr(111)+chr(111+1+1+1+1)+chr(11+11+11+1)+chr(11+11+11+1+1+1+1+1+1+1+1)+chr(11+11+11+11+1+1)+chr(111+1+1+1+1)+chr(111+1+1+1+1+1+1+1+1+1+1)+chr(111+1+1+1+1)+chr(111+1+1+1+1+1)+chr(11+11+11+11+11+11+11+11+11+1+1)+chr(11+11+11+11+11+11+11+11+11+1+1+1+1+1+1+1+1+1+1)+chr(11+11+11+1+1+1+1+1+1+1)+chr(11+11+11+1)+chr(11+11+11+11+11+11+11+11+11+1+1+1+1+1+1+1+1+1)+chr(111+1+1+1+1)+chr(11+11+11+1)+chr(11+11+11+1+1+1+1+1+1+1+1))
 ```
 
 ## Basics
+
 ```python
 "0"  =>  chr(48)  =>  chr(11+11+11+11+1+1+1+1)
 "1"  =>  chr(49)  =>  chr(11+11+11+11+1+1+1+1+1)
@@ -31,6 +35,7 @@ etc.
 ```
 
 ## Execute `print(1)`
+
 ```python
 "p" => chr(111+1)
 "r" => chr(111+1+1+1)
@@ -45,9 +50,10 @@ exec("print(1)") => exec(chr(111+1)+chr(111+1+1+1)+chr(11+11+11+11+11+11+11+11+1
 ```
 
 ## Usage
+
 ```bash
 $ echo 'print("PyFuck!!!")' > test.py
-$ python3 pyfuck.py
+$ python3 main.py
  ____        _____           _
 |  _ \ _   _|  ___|   _  ___| | __
 | |_) | | | | |_ | | | |/ __| |/ /
