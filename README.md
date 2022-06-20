@@ -2,8 +2,9 @@
 
 PyFuck is a strange playful code.  
 It uses only nine different characters to write Python3 code.  
-
 Inspired by [aemkei/jsfuck](https://github.com/aemkei/jsfuck)  
+
+Demo: **[💘PyFuck Playground](https://satoki.github.io/PyFuck/)**  
 
 ## Example
 
